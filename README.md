@@ -1,12 +1,16 @@
-# Block Stack Stability Prediction  
+# Block Stack Stability Prediction
 
-Predicting the stability of block stacks from single images using computer vision and deep learning.  
+This project grew out of my passion for computer vision and its ability to help machines make sense of the physical world — much like humans do intuitively. I’ve always been fascinated by how visual perception enables us to understand balance, weight, and structure in everyday life — whether it’s stacking books on a shelf, building towers with blocks, or packing objects efficiently.
 
-## Project Overview  
+Inspired by that, I wanted to explore how deep learning models could reason about physical stability directly from visual cues. This challenge — predicting how stable a stack of blocks will be just by looking at an image — bridges computer vision with real-world physics understanding, which has exciting applications in robotics, autonomous manipulation, and AI safety.
+
+## Project Overview
+
 This project addresses a **visual physical reasoning** task: predicting the **stable height** of block stacks, where the stable portion remains balanced.  
-We use the **ShapeStacks dataset** and apply transfer learning with pre-trained computer vision models (EfficientNet, ResNet).  
+I use the **ShapeStacks dataset** and apply transfer learning with pre-trained computer vision models (EfficientNet, ResNet).  
 
-My solution combines **data preprocessing, augmentation, and error analysis** to improve performance. The final model achieved **~61% accuracy** on Kaggle submissions, compared to the baseline of 40%.  
+My solution combines **data preprocessing, augmentation, and error analysis** to improve performance. The final model achieved **~61% accuracy** on Kaggle submissions, compared to the baseline of 40%.
+
 
 ## Example Data  
 *Examples from the ShapeStacks dataset. Each image shows stacks of 2–6 blocks of various shapes (cubes, cylinders, spheres, rectangular solids) under different lighting and camera angles. The dataset also provides metadata such as instability type, camera angle, and stable height.* 
